@@ -1,0 +1,6 @@
+D:\aircompany\Net\Aircompany\bin\Debug\Aircompany.exe.config
+D:\aircompany\Net\Aircompany\bin\Debug\Aircompany.exe
+D:\aircompany\Net\Aircompany\bin\Debug\Aircompany.pdb
+D:\aircompany\Net\Aircompany\obj\Debug\Aircompany.csprojAssemblyReference.cache
+D:\aircompany\Net\Aircompany\obj\Debug\Aircompany.exe
+D:\aircompany\Net\Aircompany\obj\Debug\Aircompany.pdb
