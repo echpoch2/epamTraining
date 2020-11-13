@@ -34,7 +34,7 @@ public class Airport {
     }
 
     public PassengerPlane getPassengerPlaneWithMaxPassengersCapacity() {
-        return planes.stream().map(p -> (PassengerPlane)p).max(new Comparator<PassengerPlane>() {
+        return this.getPassengerPlanes().stream().map(p -> (PassengerPlane)p).max(new Comparator<PassengerPlane>() {
             @Override
             public int compare(PassengerPlane o1, PassengerPlane o2) {
                 return o1.getPassengersCapacity() - o2.getPassengersCapacity();

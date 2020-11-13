@@ -41,12 +41,12 @@ public class AirportTest {
         Assert.assertTrue(transportMilitaryPlanes.size() > 0);
     }
 
-   // @Test
-    //public void getPassengerPlaneWithMaxCapacityTest() {
-      //  Airport airport = new Airport(planes);
-        //PassengerPlane expectedPlaneWithMaxPassengersCapacity = airport.getPassengerPlaneWithMaxPassengersCapacity();
-        //Assert.assertTrue(expectedPlaneWithMaxPassengersCapacity.equals(planeWithMaxPassengerCapacity));
-    //}
+    @Test
+    public void getPassengerPlaneWithMaxCapacityTest() {
+        Airport airport = new Airport(planes);
+        PassengerPlane expectedPlaneWithMaxPassengersCapacity = airport.getPassengerPlaneWithMaxPassengersCapacity();
+        Assert.assertTrue(expectedPlaneWithMaxPassengersCapacity.equals(planeWithMaxPassengerCapacity));
+}
 
     @Test
     public void hasAtLeastOneBomberInMilitaryPlanesTest() {
